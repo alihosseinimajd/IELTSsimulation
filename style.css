@@ -23,7 +23,7 @@ header div.counter{
     display: grid;
     grid-template-columns: 33% 34% 33%;
     padding: 10px 0px;
-    margin: 0px auto;
+    margin: 0 0 5px 0;
     text-align: center;
     width: 96%;
     background-color: #eceff1;
@@ -86,14 +86,17 @@ h3 {
 .question-note{
     text-align:left;
     background-color: #f5f5af;
-    font-size: 22px;
-    height: 12vh;
+    font-size: 16px;
+    font-family: sans-serif;
+    height: auto;
     position: relative;
     border-width: 1px 8px 1px 8px;
     border-radius: 8px;
     border-style: solid;
     border-color: #f5f5af;
     box-shadow: -1px 2px 1px 1px #999 ; 
+    padding-top: 10px;
+    margin-bottom: 15px;
 }
 
 input{
