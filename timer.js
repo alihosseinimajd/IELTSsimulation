@@ -10,8 +10,8 @@ function startTimer() {
 function updateTimer() {
     seconds++;
     if (seconds === 60) {
-     seconds = 0;  
-     minuts++; 
+     seconds = 0;
+     minuts++;
     }
 
     if (minuts === 60) {

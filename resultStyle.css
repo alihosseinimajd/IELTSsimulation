@@ -1,0 +1,66 @@
+header {
+  position: relative;
+}
+
+header div.container {
+  display: grid;
+  grid-template-columns: 33% 34% 33%;
+  padding: 10px 0px;
+  margin: 0px auto;
+  text-align: center;
+  width: 96%;
+  background-color: #ffffff;
+  font-size: 27px;
+  font-family: cursive;
+  position: relative;
+  border-width: 1px 8px 1px 8px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #9e9e9e #009688;
+  justify-content: center;
+}
+
+body {
+  background-color: rgba(204, 236, 249, 0.697);
+}
+.container {
+  width: 100%;
+  height: 80%;
+  margin: 0px;
+}
+
+section {
+  position: relative;
+}
+section div.content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+section div.container {
+  text-align: justify;
+  overflow: auto;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 72vh;
+  padding: 0 0px 10px 0;
+  margin-top: 10px;
+}
+section div.leftColumn,
+section div.rightColumn {
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: white;
+}
+
+section a.handle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 30px;
+  transform: translate(-50%, 0%);
+  z-index: 1;
+  cursor: ew-resize;
+}
